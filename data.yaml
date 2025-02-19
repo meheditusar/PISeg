@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['DTI', 'Unstageable', 'stage-1', 'stage-2', 'stage-3', 'stage-4']
+
+roboflow:
+  workspace: pi-iqy1t
+  project: pi-staging-tsyl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pi-iqy1t/pi-staging-tsyl/dataset/1
