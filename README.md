@@ -7,4 +7,6 @@ step 1. Download the dataset from roboflow, project id: advances-in-wound-care-p
 
 step 2. Reorganize them into images and labels folder, each folder should have train, val, and test subfolders
 
-step 3. Run this code into a suitable environment for training with YOLOv8. Don't forget to change the dataset directory
+step 3. Rename the data.yaml file into config.yaml file and also change the dataset structure as described in step 2. Change the dataset directory into the trianing_code
+
+step 4. Run this code into a suitable environment for training with YOLOv8. 
